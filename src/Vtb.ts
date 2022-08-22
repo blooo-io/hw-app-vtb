@@ -22,7 +22,7 @@ import {
   TransportError,
 } from "@ledgerhq/errors";
 const CHUNK_SIZE = 250;
-const CLA = 0x90;
+const CLA = 0xa4;
 const INS = {
   GET_VERSION: 0x00,
   GET_ADDR_ED25519: 0x01,
@@ -36,19 +36,19 @@ const SW_CANCEL = 0x6986;
 const SW_ERROR_DATA_INVALID = 0x6984;
 const SW_ERROR_BAD_KEY_HANDLE = 0x6a80;
 /**
- * Polkadot API
+ * VTB API
  *
  * @example
- * import Polkadot from "@ledgerhq/hw-app-polkadot";
- * const polkadot = new Polkadot(transport)
+ * import VTB from "@ledgerhq/hw-app-vtb";
+ * const vtb = new VTB(transport)
  */
 
-export default class Polkadot {
+export default class VTB {
   transport: Transport;
 
   constructor(transport: Transport) {
     this.transport = transport;
-    transport.decorateAppAPIMethods(this, ["getAddress", "sign"], "DOT");
+    transport.decorateAppAPIMethods(this, ["getAddress", "sign"], "VTB");
   }
 
   serializePath(path: Array<number>): Buffer {

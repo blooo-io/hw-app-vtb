@@ -1,38 +1,36 @@
 {
-  "name": "@ledgerhq/hw-app-polkadot",
+  "name": "@ledgerhq/hw-app-vtb",
   "version": "6.27.1",
-  "description": "Ledger Hardware Wallet Polkadot Application API",
+  "description": "Ledger Hardware Wallet VTB Application API",
   "keywords": [
     "Ledger",
     "LedgerWallet",
-    "dot",
-    "Polkadot",
+    "VTB",
     "NanoS",
     "Blue",
     "Hardware Wallet"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/LedgerHQ/ledgerjs"
+    "url": "https://github.com/blooo-io/hw-app-vtb"
   },
-  "bugs": {
-    "url": "https://github.com/LedgerHQ/ledgerjs/issues"
-  },
-  "homepage": "https://github.com/LedgerHQ/ledgerjs",
+  "homepage": "https://github.com/blooo-io/hw-app-vtb",
   "publishConfig": {
     "access": "public"
   },
-  "main": "lib/Polkadot.js",
-  "module": "lib-es/Polkadot.js",
-  "types": "lib/Polkadot.d.ts",
+  "main": "lib/Vtb.js",
+  "module": "lib-es/Vtb.js",
+  "types": "lib/Vtb.d.ts",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ledgerhq/errors": "workspace:^",
-    "@ledgerhq/hw-transport": "workspace:^",
+    "@ledgerhq/errors": "^6.10.1",
+    "@ledgerhq/hw-transport": "^6.27.2",
     "bip32-path": "^0.4.2"
   },
   "devDependencies": {
-    "@ledgerhq/hw-transport-mocker": "workspace:^"
+    "@ledgerhq/hw-transport-mocker": "^6.27.2",
+    "@types/node": "^18.7.9",
+    "rimraf": "^3.0.2"
   },
   "scripts": {
     "clean": "rimraf lib lib-es",

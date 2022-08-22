@@ -3,9 +3,9 @@
 [Github](https://github.com/LedgerHQ/ledgerjs/),
 [Ledger Devs Slack](https://ledger-dev.slack.com/)
 
-## @ledgerhq/hw-app-polkadot
+## @ledgerhq/hw-app-vtb
 
-Ledger Hardware Wallet Polkadot JavaScript bindings.
+Ledger Hardware Wallet VTB JavaScript bindings.
 
 ## API
 
@@ -13,7 +13,7 @@ Ledger Hardware Wallet Polkadot JavaScript bindings.
 
 #### Table of Contents
 
-*   [Polkadot](#polkadot)
+*   [VTB](#vtb)
     *   [Parameters](#parameters)
     *   [Examples](#examples)
     *   [getAddress](#getaddress)
@@ -21,9 +21,9 @@ Ledger Hardware Wallet Polkadot JavaScript bindings.
     *   [sign](#sign)
         *   [Parameters](#parameters-2)
 
-### Polkadot
+### VTB
 
-Polkadot API
+VTB API
 
 #### Parameters
 
@@ -32,8 +32,8 @@ Polkadot API
 #### Examples
 
 ```javascript
-import Polkadot from "@ledgerhq/hw-app-polkadot";
-const polkadot = new Polkadot(transport)
+import VTB from "@ledgerhq/hw-app-vtb";
+const vtb = new VTB(transport)
 ```
 
 #### getAddress

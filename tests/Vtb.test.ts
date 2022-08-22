@@ -2,10 +2,10 @@ import {
   openTransportReplayer,
   RecordStore,
 } from "@ledgerhq/hw-transport-mocker";
-import Polkadot from "../src/Polkadot";
+import VTB from "../src/Vtb";
 
-test("Polkadot init", async () => {
+test("Vtb init", async () => {
   const transport = await openTransportReplayer(RecordStore.fromString(""));
-  const dot = new Polkadot(transport);
+  const dot = new VTB(transport);
   expect(dot).not.toBe(undefined);
 });
