@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/blooo-io/hw-app-vtb"
   },
-  "homepage": "https://github.com/blooo-io/hw-app-vtb",
+  "homepage": "https://github.com/blooo-io",
   "publishConfig": {
     "access": "public"
   },
