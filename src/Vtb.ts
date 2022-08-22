@@ -39,7 +39,7 @@ const SW_ERROR_BAD_KEY_HANDLE = 0x6a80;
  * VTB API
  *
  * @example
- * import VTB from "@ledgerhq/hw-app-vtb";
+ * import VTB from "@blooo/hw-app-vtb";
  * const vtb = new VTB(transport)
  */
 
