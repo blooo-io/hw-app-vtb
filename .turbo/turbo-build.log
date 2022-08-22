@@ -1,0 +1,5 @@
+[33m@ledgerhq/hw-app-polkadot:build[0m: cache hit, replaying output [2m5f62e27482d8a80f[0m
+[33m@ledgerhq/hw-app-polkadot:build: [0m
+[33m@ledgerhq/hw-app-polkadot:build: [0m> @ledgerhq/hw-app-polkadot@6.27.1 build /Users/Guilane/workspace/ledger-live/libs/ledgerjs/packages/hw-app-polkadot
+[33m@ledgerhq/hw-app-polkadot:build: [0m> tsc && tsc -m ES6 --outDir lib-es
+[33m@ledgerhq/hw-app-polkadot:build: [0m
