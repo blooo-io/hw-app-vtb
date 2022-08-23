@@ -44,4 +44,4 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_PUBLISH_AUTO_GLOBAL }}
         run: |
-          npm publish --access public
+          npm publish
