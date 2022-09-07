@@ -125,7 +125,7 @@ export default class VTB {
    */
   async sign(
     path: string,
-    message: string | Uint8Array
+    message: Uint8Array
   ): Promise<{
     signature: null | string;
     return_code: number;
